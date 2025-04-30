@@ -61,6 +61,10 @@ void prims(int graph[V][V], int vertices)
         }
     }
 
+    /*
+    parent[i] represents the vertex which was used to add the vertex i to the MST. (ex: i = 1 & parent[1] = 0 => 1 was added thru 0)
+    */
+
     cout << "Edge \tWeight\n";
     for (int i = 1; i < vertices; i++)
     {
