@@ -14,7 +14,7 @@ void swap(vector<int> &arr, int idx1, int idx2)
 void insertionSort(vector<int> &arr, int length)
 {
 
-    for (int j = 2; j < length; j++)
+    for (int j = 1; j < length; j++)
     {
 
         for (int i = j; i >= 1; i--)
