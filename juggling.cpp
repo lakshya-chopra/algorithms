@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <numeric>
+#include "util.hpp"
 
 using namespace std;
 
@@ -35,12 +36,6 @@ void leftRotate(vector<int> &arr, int size, int rotations){
 
 }
 
-void printVector(vector<int> &arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << " ";
-    cout << endl;
-}
 
 int main(){
 

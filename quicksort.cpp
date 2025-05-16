@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+#include "util.hpp"
 
 using namespace std;
 
@@ -57,12 +58,6 @@ void RandomizedQuicksort(vector<int> &arr, int left, int right)
     }
 }
 
-void printVector(vector<int> &arr)
-{
-    for (int i = 0; i < arr.size(); i++)
-        cout << arr[i] << " ";
-    cout << endl;
-}
 
 int main()
 {
